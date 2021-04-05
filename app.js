@@ -55,9 +55,5 @@ generateBtn.addEventListener('click', () => {
 });
 
 copyBtn.addEventListener('click', () => {
-    let copyText = "";
-
-    copyText = document.execCommand('copy');
-    console.log(copyText.value);
-
+    let copiedText = document.execCommand("copy");
 });

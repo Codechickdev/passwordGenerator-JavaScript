@@ -70,3 +70,20 @@
     background: black;
     color: whitesmoke;
 }
+
+#generate-btn {
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    padding: 10px;
+    margin: 10px;
+    width: 90px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+
+#generate-btn:hover{
+    background: black;
+    color: white;
+}

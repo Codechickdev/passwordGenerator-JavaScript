@@ -8,6 +8,32 @@
     <title>Password Generator</title>
 </head>
 <body>
+    <div class="pw-container">
+        <div class="pw-header">
+            <div class="pw">
+                <span id="password">94869879^3632</span>
+                <button id="copy">Copy</button>
+            </div>
+        </div>
+        <div class="pw-body">
+            <div class="lower">
+                <input type="checkbox" id="lower">
+                <label for="lower">Includes lower case</label>
+            </div>
+            <div class="upper">
+                <input type="checkbox" id="upper">
+                <label for="upper">Includes upper case</label>
+            </div>
+            <div class="numbers">
+                <input type="checkbox" id="numbers">
+                <label for="numbers">Includes numbers</label>
+            </div>
+            <div class="symbols">
+                <input type="checkbox" id="symbols">
+                <label for="symbols">Includes symbols</label>
+            </div>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

@@ -1,6 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.pw-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    min-height: 100vh;
+    background-color: rgb(146, 74, 228);
+}
+
+.pw-header {
+    padding: 10px;
+    margin: 15px;
+    position: absolute;
+    top: 25%;
+    width: auto;
+}
+
+.pw #copy { 
+    padding: 0;
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pw #copy:hover {
+    background: black;
+    color: whitesmoke;
+}
+
+.pw #password {
+    position: relative;
+    left: 10%;
+    top: 35%;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.pw-body > div{
+    position: relative;
+    padding: 10px;
+    margin-bottom: 30px;
+    top: 60px;
+    right: 30px;
+    border-radius: 10px;
+    background: honeydew;
+    text-align:left;
+    font-size: 20px;
+}
+
+.pw-body > div:hover {
+    background: black;
+    color: whitesmoke;
+}
